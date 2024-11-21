@@ -1,0 +1,5 @@
+export const CONSTANTS = {
+  ALLOWED_PROTOCOLS: ['http', 'https'],
+  SHORT_CODE_LENGTH: 10,
+  CHARACTERS: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789',
+};
