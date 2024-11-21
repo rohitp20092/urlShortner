@@ -3,7 +3,7 @@ import { WebSocketMessage, WebSocketClients, PendingMessage } from '../types/web
 
 const WS_PORT = 8080;
 const MAX_RETRY_ATTEMPTS = 3;
-const RETRY_DELAY = 15000; // Increased to 15 seconds to give more time for ACK
+const RETRY_DELAY = 15000;
 
 // Initialize WebSocketClients
 const wsClients: WebSocketClients = {
